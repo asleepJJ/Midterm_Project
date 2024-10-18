@@ -5,7 +5,7 @@
 @section('content')
 <div class="container home-container">
     <header>
-        <h1 class="header-portfolio-title">Welcome to <br> MY PORTFOLIO!</h1>
+        <h1 class="header-portfolio-title">MY PORTFOLIO!</h1>
     </header>
     <div class="introduction">
         <p>
