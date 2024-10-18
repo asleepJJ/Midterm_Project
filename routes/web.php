@@ -50,7 +50,25 @@ Route::middleware([CheckAge::class])->group(function () {
         return view('home1');
     })->name('home1');
 
+    Route::get('/lab1', function () {
+        return view('lab1');
+    })->name('lab1');
+    
+    Route::get('/lab2', function () {
+        return view('lab2');
+    })->name('lab2');
+    
+    Route::get('/lab3', function () {
+        return view('lab3');
+    })->name('lab3');
+    
+    Route::get('/lab4', function () {
+        return view('lab4');
+    })->name('lab4');
+
     Route::get('/contact', function () {
         return view('contact');
     })->name('contact');
+    
 });
+
