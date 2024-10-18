@@ -548,8 +548,9 @@ body.contact {
 }
 
 .lab img {
-    width: 100%;                        
-    height: auto;                       
+    width: 250px;                        
+    height: 250px;  
+    padding-left: 25px;                     
     border-radius: 10px;                
 }
 

@@ -14,6 +14,7 @@
         demonstrating my journey through various technical challenges and solutions."
         </p>
     </div>
+</div>
 
     <div class="lab-container">
         <a href="{{ url('/lab1') }}" class="lab">
@@ -33,5 +34,5 @@
         </a>
     </div>
 
-</div>
+
 @endsection
