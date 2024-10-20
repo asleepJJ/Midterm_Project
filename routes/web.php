@@ -6,8 +6,8 @@ use App\Http\Middleware\CheckAge;
 
 
 Route::get('/', function () {
-    return view('home');
-})->name('home');
+    return view('home1');
+})->name('home1');
 
 
 Route::get('/welcome', function () {
@@ -40,15 +40,15 @@ Route::post('/store-age', function (Request $request) {
     } elseif ($age >= 21) {
         return redirect()->route('restricted.area');
     } else {
-        return redirect()->route('home1');
+        return redirect()->route('home');
     }
 })->name('store.age');
 
 
 Route::middleware([CheckAge::class])->group(function () {
-    Route::get('/home1', function () {
-        return view('home1');
-    })->name('home1');
+    Route::get('/home', function () {
+        return view('home');
+    })->name('home');
 
     Route::get('/lab1', function () {
         return view('lab1');
