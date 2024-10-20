@@ -13,7 +13,7 @@
             <ul>
                 <li><a href="{{ url('/welcome') }}">Sign Up</a></li>
                 <li><a href="{{ url('/home1') }}">Home</a></li>
-                <li><a href="{{ url('/contact') }}">Contact Me</a></li>
+                <li><a href="{{ url('/about') }}">About Me</a></li>
             </ul>
         </nav>
     </header>

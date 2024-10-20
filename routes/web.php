@@ -66,9 +66,8 @@ Route::middleware([CheckAge::class])->group(function () {
         return view('lab4');
     })->name('lab4');
 
-    Route::get('/contact', function () {
-        return view('contact');
-    })->name('contact');
+    Route::get('/about', function () {
+        return view('about');
+    })->name('about');
     
 });
-

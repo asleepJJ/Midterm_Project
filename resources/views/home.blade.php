@@ -9,7 +9,7 @@
     </header>
     <div class="introduction">
         <p>
-        "Welcome to my portfolio, this is the compilation of the hands-on laboratory activities and its documentations. 
+        "This is the compilation of the hands-on laboratory activities i've done and its documentations. 
         Each laboratory activity shows my understanding and what I learned so far, 
         demonstrating my journey through various technical challenges and solutions."
         </p>
