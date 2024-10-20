@@ -5,12 +5,12 @@
 @section('content')
 <header>
     <h1 class="header-portfolio-title">MY PORTFOLIO!</h1>
-    <img src="{{ asset('/images/cat.jpg') }}" alt="Description of the image" class="welcome-image welcome-roadmap-image">
+    <img src="{{ asset('/images/cat.jpg') }}" alt="Description of the image" class="welcome-image">
 </header>
 
 <div class="container">
     <div class="form-box">
-        <form action="{{ url('/home') }}" method="GET">
+        <form action="{{ url('/home1') }}" method="GET">
             <label for="username">Enter your username:</label>
             <input type="text" name="username" id="username" pattern="[A-Za-z]+" title="Only alphabetic characters are allowed" required>
         </form>
