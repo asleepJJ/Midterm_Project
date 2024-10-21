@@ -11,9 +11,8 @@
     <div class="lab4">
         <h3>DESCRIPTION</h3>
         <p>
-        "Welcome to my portfolio, this is the compilation of the hands-on laboratory activities and its documentation. 
-        Each laboratory activity shows my understanding and what I learned so far, 
-        demonstrating my journey through various technical challenges and solutions."
+        The laboratory 4 is about Middleware. Defining middleware, registering middleware (global middleware, assingning middleware to routes, middleware groups), 
+        middleware parameters, and terminable middleware.
         </p>
         <h3>SUMMARY</h3>
         <p>

@@ -7,6 +7,7 @@ html, body {
     background: url('/images/sky.jpg') no-repeat center center fixed;
     background-size: cover;
     color: white;
+    overflow-x: hidden;
 
 .introduction{
     padding: 10px;
@@ -467,7 +468,7 @@ textarea.input-box {
 
 .center-container{
     width: 30%;
-    margin: 50px auto;
+    margin: 50px auto; 
     padding: 40px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
@@ -522,24 +523,33 @@ textarea.input-box {
 }
 
 @media screen and (max-width: 768px) {
-    .lab {
-        flex-direction: column;
-        align-items: center;
+    .labs-container {
+        width: 95vw;
+        height: auto;
+        padding: 10px;
     }
 
     .lab {
+        flex-direction: column;
+        align-items: center;
         width: 85%;
         margin: 25px auto;
     }
 }
 
 
-.labs-container{
-    width: 30%;
-    margin: 50px auto;
-    padding: 40px;
+.labs-container {
+    width: 60vw;
+    height: 58vh; 
+    margin: 70px auto; 
+    padding: 50px 50px; 
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     font-family: Poppins;
-    text-align: center;  
+    text-align: center;
+}
+
+.labs-container h1 {
+    margin-top: 0px; 
+    margin-bottom: 10px;
 }

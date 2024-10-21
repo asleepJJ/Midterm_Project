@@ -11,9 +11,8 @@
     <div class="lab3">
         <h3>DESCRIPTION</h3>
         <p>
-        "Welcome to my portfolio, this is the compilation of the hands-on laboratory activities and its documentation. 
-        Each laboratory activity shows my understanding and what I learned so far, 
-        demonstrating my journey through various technical challenges and solutions."
+        The laboratory 3 is all about the Layout File, like its directory structure, folder creation, and its purpose. 
+        About defining layouts in blade, blade directives and its uses, and layout file with blade directives. 
         </p>
         <h3>SUMMARY</h3>
         <p>
